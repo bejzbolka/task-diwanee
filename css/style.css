@@ -1,0 +1,441 @@
+/* === Fonts === */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+/* == Containers == */
+.diwane {
+    width: 1440px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-custom {
+    width: 950px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* === Default's === */
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 50px;
+}
+h2, h6 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: RobotoRegular;
+}   
+h2{
+    margin-bottom: 50px;
+}
+/* === Header === */
+header {
+    background-image: url("../images/diwanee-serbia1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header h1 {
+    padding-top: 150px;
+    padding-bottom: 32px;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: normal;
+}
+header h3 {
+    padding-top: 45px;
+    padding-bottom: 240px;
+    font-size: 24px;
+    font-family: Helvetica;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-weight: normal;
+}
+.hide-title,.hide-menu {
+    display: none;
+}
+.hide-menu p {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 15px;
+    color: #ededed;
+    text-transform: uppercase;
+}
+header hr {
+    border: 1px solid red;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+}
+/* Links inside navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 44px;
+    text-transform: uppercase;
+    font-family: RobotoRegular;
+}
+/* Hide the link that should open and close on small screens */
+.topnav .icon {
+    display: none;
+}
+.topnav a:not(:first-child) {
+    float: right;
+}
+/* === Part1 === */
+.part1 {
+    background-color: #fbfbfb;
+}
+.parts {
+    width: 33%;
+    display: inline-block;
+    background-color: #fbfbfb;
+}
+.parts img {
+    padding-top: 90px;
+    padding-bottom: 42px;
+    margin: 0 auto;
+    display: block;
+}
+.parts h4 {
+    font-size: 18px;
+    font-family: RobotoBold;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 5px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.parts hr {
+    border: 1px solid #c4c4c4;
+}
+.parts p {
+    margin: 35px 50px 70px 50px;
+    font-size: 16px;
+    text-align: center;
+    font-family: RobotoLight;
+}
+/* === Part 2 Positions === */
+.position h6 {
+    margin-top: 135px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #999999;
+    letter-spacing: 1px;
+}
+.position h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.position hr {
+    border: 1px solid red;
+}
+.position h4 {
+    text-align: center;
+    font-size: 24px;
+    font-family: RobotoLight;
+    width: 75%;
+    margin: 65px auto 85px auto;
+}
+.position-open h4 {
+    padding: 50px 0 25px 0;
+    font-size: 20px;
+    font-family: RobotoMedium;
+    margin-bottom: 0;
+}
+.position-open p {
+    font-family: RobotoLight;
+    font-size: 18px;
+    display: inline-block;
+    width: 500px;
+    padding-bottom: 35px;
+}
+.position-open button {
+    padding: 20px 40px;
+    background-color: #c41230;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    margin-left: 160px;
+}
+.position-open a {
+    padding: 10px 20px;
+    background-color: #c41230;
+    color: #000;
+    text-decoration: none;
+    margin-top: 0;
+}
+.position-open-black {
+    background-color: #1e1e1e;
+}
+.position-open-black h4, .position-open-black p {
+    color: #fff;
+}
+.position-open-black button {
+    background-color: #fff;
+}
+.hash {
+    padding-bottom:66px;
+}
+.add_more {
+    margin-top: 150px;
+    margin-bottom: 140px;
+}
+.add_more a {
+    padding: 20px;
+    background-color: #ededed;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: table;
+}
+/* === Part 3 digital === */
+.digital {
+    background-color: #fbfbfb;
+}
+.digital h6 {
+    padding-top: 90px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #999999;
+}
+.digital h2 {
+    margin-top: 50px;
+    font-size: 50px;
+}
+.digital hr {
+    border: 1px solid #c4c4c4;
+    margin-bottom: 64px;
+}
+.digital p {
+    font-family: RobotoLight;
+    font-size: 18px;
+    padding-bottom: 135px;
+}
+/* === Social Icons === */
+.social h6 {
+    margin-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    color: #999999;
+}
+.social .icons {
+    margin-bottom: 105px;
+    text-align: center;
+    
+}
+.icons > div {
+    display: inline-block;
+    margin: 0 auto;
+}
+/* ===  Footer === */
+footer {
+    background-color: #222222;
+}
+.address {
+    width: 33%;
+    display: inline-table;
+    padding-top: 135px;
+}
+.address h4 {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-family: RobotoRegular;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.address ul {
+    margin-top: 25px;
+    padding-bottom: 105px;
+    padding-left: 0px;
+    font-family: RobotoRegular;
+    font-size: 15px;
+    color:#626262;
+    list-style-type: none;
+}
+.rights {
+    background-color: #1e1e1e;
+}
+.rights p {
+    display: inline-block;
+    margin: 25px;
+    color:#626262;
+}
+.rights > div {
+    margin: 25px;
+    display: inline-block;
+    float: right;
+}
+.rights a {
+    text-decoration: none;
+    color:#626262;
+    margin-left: 30px;
+}
+/* === Media queries === */
+@media screen and (max-width: 1490px) {
+    .diwane {width: auto;}
+}
+@media screen and (max-width: 1024px) {
+    .container-custom {width: auto;}
+    header {background-image: url("../images/diwanee-serbia5.png");}
+    header h1 {
+        padding-top: 110px;
+        padding-bottom: 70px;
+    }
+    header hr {display: none;}
+    header h3 {
+        padding-top: 0;
+        padding-bottom: 120px;
+    }
+    .parts img {
+        padding-top: 42px;
+        padding-bottom: 30px;
+    }
+    .parts hr {width: 35px;}
+    .parts p {margin-bottom: 85px;}
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .topnav.responsive {
+        position: absolute;
+        width: 88%;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: transparent;
+        color: #000000;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+        background-color: #222222;
+        color: #ededed;
+    }
+    .topnav.responsive a:first-child {
+        text-align: left;
+        background-color: transparent;
+    }
+    .topnav.responsive > .hide-menu {
+        display: block;
+        background-color: #222222;
+    }
+    .topnav.responsive > .hide-menu a {
+        display: inline-block;
+        float: right;
+        padding-top: 17px;
+    }
+    .add_more {margin-top: 100px;}
+    .social h6 {margin-top: 70px;}
+
+}
+@media screen and (max-width: 992px) {
+    .parts {width: 100%;}
+    .position-open button {display: none;}
+    .position-open p {width: 100%;}
+    .address {width: 30%;}
+    .address ul {font-size: 15px;}
+    header h1 {
+        padding-top: 130px;
+        padding-bottom: 70px;
+        font-size: 60px;
+    }
+    header h3 {
+        display: none;
+        padding-bottom: 200px;
+    }
+    .hide-title {
+        display: block;
+        font-size: 20px;
+    }
+    .position-open {
+        background-color: #fbfbfb;
+    }
+    .position-open a {
+        color: #c41230;
+        font-size: 14px;
+        background-color: transparent;
+    }
+    .position-open-black {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    .position-open-black h4 {
+        color: #000000;
+    }
+    .position-open-black p {
+        color: #000000;
+    }
+}
+@media screen and (max-width: 768px) { 
+    .address {
+        width: 100%;
+        padding-top: 50px;
+    }
+    .address ul {padding-bottom: 0;}
+    .rights > div {
+        padding-bottom: 20px;
+        margin: 0;
+        float: none;
+    }
+}
+@media screen and (max-width: 420px) {
+    .diwane {width: 100%;}
+    header {background-image: url("../images/diwanee-serbia6.png");}
+    .container-custom {width: auto;}
+    
+}
